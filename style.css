@@ -240,7 +240,7 @@ Mobile devices
         width: 100%;
     }
     .nav-img{
-        padding-left: 2px;   
+        padding-left: 2git px;   
         gap: 5px; 
        }
        .pro-img{
@@ -248,7 +248,7 @@ Mobile devices
     }
 
     .nav-details{
-       gap: 5px;  
+       gap: 1px;  
     }
     nav li{
         padding-right: 5px;
