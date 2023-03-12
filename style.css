@@ -206,9 +206,11 @@ Mobile devices
 @media only screen and (max-width:688px) {
     .container, .course{
         width: 100%;
+        padding: 0px;
     }
     .players, .blog, .courses{
         grid-template-columns: repeat(1, 1fr);
+
 
     }
     .courses{
@@ -222,9 +224,35 @@ Mobile devices
     }
     .course{
         padding: 0px;
+        text-align: center;
     }
 
-   
+    .top-player, .top-blog, .courses{
+        padding-left: 5px;
+    } 
+
+ body{
+    margin: 0;
+ }
+
+    .nav-menu{
+        justify-content: space-around;
+        width: 100%;
+    }
+    .nav-img{
+        padding-left: 20px;   
+        gap: 5px; 
+       }
+       .pro-img{
+        padding-right: 5px;
+    }
+
+    .nav-details{
+       gap: 5px;  
+    }
+    nav li{
+        padding-right: 5px;
+    }
 }
 
 /*-----------
@@ -238,4 +266,12 @@ Mobile devices
     .courses{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .course{
+        padding: 0px;
+        text-align: center;
+    }
+
+
+    
 }
